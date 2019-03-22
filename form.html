@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Я знайшов дурга!</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="index.html">Головна</a>
+        </nav>
+    </header>
+    
+    <main>
+        <p>Щоб забрати собаку додому ви не можете бути котом!</p>
+        <h1>Інформація про кандидата</h1>
+        <form method="POST" action="https://formspree.io/antoshkiv1@gmail.com">
+    
+    <fieldset>
+            <label >Ім'я: 
+            <input type="text" placeholder="Ім'я" 
+              name="first-name" required>
+              </label>
+              <br>
+            <label>
+                Email: <input type="email" placeholder="Email"
+                  name="client-email" required>
+            </label>
+            
+            <br>
+            <label>Вкажи свій номер телефону:
+            <input type="tel" name="phone"
+            
+            placeholder="+3809999999"
+            required>
+            </label>
+            <br>
+            <label >Стать:</label>
+            <label>
+                <input type="radio" name="gender" value="Чоловік" required> Чоловік 
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Жінка" required> Жінка 
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Кіт" required> Кіт 
+            </label>
+            <br>
+            <label>Ваш вік:
+            <input type="number" name="age" required >
+            </label>
+            <br>
+            <label>Вибери улюбленця:
+            <select>
+              <option value="Жужа">Жужа</option>
+              <option value="Стиляга">Стиляга</option>
+              <option value="Чужий">Чужий</option>
+            </select>
+            </label>
+            <br>
+            <label>Наскільки сильно любиш собак і котів:
+            <br>
+                <label >Собака:</label>
+                <input type="range" name="love-dog"
+                     min="0" max="100" value="90">
+                     <br>
+                <label >Кіт:</label>
+                <input type="range" name="love-cat" 
+                     min="0" max="100" value="10" step="10">
+             <br>
+            </label>
+            <label>
+                У вас обовязково має бути акаунт у соціальних мережах щоб ми могли побачити нашого улюбленця!
+            </label>
+                <br>
+                <label>Лінк на соціальну мережу:
+                <input type="url" name="url" 
+                       placeholder="https://example.com"
+                       pattern="https://.*" size="30"
+                       required>
+            </label>
+            <br>
+            <label>
+                Вкажи кодове слово щоб ніхто крім тебе його не забрав
+                <input type="password" name="pas"/>
+            </label>
+            <input type="submit">
+            </fieldset>
+        </form>
+    </main>
+    <br>
+    <hr>
+    <br>
+     <foother>
+            <div>Якщо ти вибрав друга обов'язково розкажи іншим!</div>
+            <div>Всі права захищені, котам копіювати чи використовувати сторінку заборонено! © 2019 </div>
+     </foother>
+</body>
+</html>
